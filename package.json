@@ -1,0 +1,23 @@
+{
+  "name": "speech-recognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "language.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afaqir37/Speech-Recognition.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afaqir37/Speech-Recognition/issues"
+  },
+  "homepage": "https://github.com/afaqir37/Speech-Recognition#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
