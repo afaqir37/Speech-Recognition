@@ -31,7 +31,7 @@ if ("webkitSpeechRecognition" in window ) {
         for (let i = event.resultIndex; i < event.results.length; i++) {
             if (!(event.results[i][0].confidence > 0)) continue;
             if (event.results[i].isFinal && event.results[i][0].confidence >= 0.7) {
-              final_transcript += event.results[i][0].transcript;
+              final_transcript += event.results[i][0].transcript + ' ';
             } else {
               interim_transcript += event.results[i][0].transcript;
             }
